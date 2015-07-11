@@ -1,0 +1,28 @@
+{
+  "name": "yamstr-telegram-bot-api",
+  "version": "0.1.0",
+  "description": "Telegram Bot API Wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamstr/telegram-bot-api.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "api",
+    "wrapper"
+  ],
+  "author": "Andrey Volkovitskiy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yamstr/telegram-bot-api/issues"
+  },
+  "homepage": "https://github.com/yamstr/telegram-bot-api#readme",
+  "dependencies": {
+    "request": "^2.58.0"
+  }
+}
