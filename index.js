@@ -2,11 +2,12 @@ var request = require('request');
 
 var Telegram = function(config) {
 	this.config = config || {};
+	this.url = 'https://api.telegram.org/bot';
 };
 
 Telegram.prototype.request = function(method, params, callback) {
 	request({
-		url: this.config.url + method,
+		url: this.url + this.config.token + '/' + method,
 		method: 'POST',
 		form: params
 	}, function(error, response, body) {
