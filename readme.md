@@ -4,13 +4,13 @@ Telegram Bot API Wrapper
 
 ## Installation
 
-```shell
+```
 $ npm install yamstr-telegram-bot-api
 ```
 
 ## Example
 
-```javascript
+```js
 var Telegram = require('yamstr-telegram-bot-api');
 var telegram = new Telegram({
 	token: '<token>'

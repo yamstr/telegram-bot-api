@@ -1,6 +1,6 @@
 {
   "name": "yamstr-telegram-bot-api",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Telegram Bot API Wrapper",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/yamstr/telegram-bot-api#readme",
   "dependencies": {
+    "async": "^1.3.0",
     "request": "^2.58.0"
   }
 }
